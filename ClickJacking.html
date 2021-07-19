@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="This is used to test the Click Jacking bug in the websie"/>
+        <meta name="author" content="APK"/>
+        <title>Click Jack Tester</title>
+    </head>
+    <body>
+        <style>
+            iframe
+            {
+                width: 1500px;
+                height: 800px;
+                position:absolute;
+                top: 0;
+                left: 0;
+                filter:alpha;
+                opacity: 0.4;
+            }
+        </style>
+        <div><h1>This site is vulnarable to Click Jacking</h1></div>
+        <iframe src=""></iframe>
+      
+    </body>
+    </html>
